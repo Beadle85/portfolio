@@ -27,6 +27,6 @@
   .backgroundDiv {
     width: unset;
     height: 90%;
-    inset: 100px -16px 0px;
+    inset: 100px -100px 0px;
   }
 }
