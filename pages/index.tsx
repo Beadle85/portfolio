@@ -1,6 +1,7 @@
 import Head from 'next/head';
+import Home from '../components/home';
 
-export default function Home() {
+export default function App() {
   return (
     <>
       <Head>
@@ -9,6 +10,15 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <main>
+        <Home />
+        <section id='about' style={{ height: '50rem', width: '80%', background: 'lightYellow', margin: '5rem auto 0' }}>
+          This is my about me content
+        </section>
+        <section id='skills' style={{ height: '50rem', width: '80%', background: 'gold', margin: '5rem auto 0' }}>
+          This is my github content
+        </section>
+      </main>
     </>
   );
 }
