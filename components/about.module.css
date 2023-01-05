@@ -1,0 +1,32 @@
+.container {
+  margin-bottom: 200px;
+  box-sizing: border-box;
+}
+
+.content {
+  width: fit-content;
+  margin: 10rem auto 0;
+  color: white;
+}
+
+.backgroundDiv {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  min-height: 500px;
+  background: linear-gradient(134deg, var(--green) 0%, var(--green) 99%);
+  transform: skewY(3deg);
+  z-index: -1;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    position: relative;
+  }
+  .backgroundDiv {
+    width: unset;
+    height: 90%;
+    inset: 100px -16px 0px;
+  }
+}

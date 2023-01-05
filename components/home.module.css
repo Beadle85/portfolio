@@ -6,3 +6,27 @@
   align-items: center;
   justify-content: space-around;
 }
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    margin-top: 10rem;
+    height: fit-content;
+    width: fit-content;
+    margin: 3rem auto 0;
+  }
+  .backgroundDiv {
+    visibility: hidden;
+  }
+}
+
+.backgroundDiv {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  min-height: 150px;
+  background: linear-gradient(134deg, var(--green) 0%, var(--green) 99%);
+  transform: skewY(3deg);
+  z-index: -1;
+  pointer-events: none;
+}

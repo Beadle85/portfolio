@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import About from '../components/about';
 import Home from '../components/home';
 
 export default function App() {
@@ -12,12 +13,7 @@ export default function App() {
       </Head>
       <main>
         <Home />
-        <section id='about' style={{ height: '50rem', width: '80%', background: 'lightYellow', margin: '5rem auto 0' }}>
-          This is my about me content
-        </section>
-        <section id='skills' style={{ height: '50rem', width: '80%', background: 'gold', margin: '5rem auto 0' }}>
-          This is my github content
-        </section>
+        <About />
       </main>
     </>
   );
