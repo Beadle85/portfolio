@@ -37,14 +37,13 @@ a {
   text-decoration: none;
 }
 
-h2 {
+/* h2 {
   margin: 100px auto;
   font-size: 1.5rem;
   font-weight: 900;
-  color: var(--green);
   text-align: center;
   letter-spacing: 1px;
   line-height: 140%;
   box-sizing: border-box;
   display: block;
-}
+} */

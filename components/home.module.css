@@ -1,10 +1,11 @@
 .container {
-  height: calc(80vh - 100px);
+  /* height: calc(80vh - 100px); */
   width: 80%;
-  margin: 3rem auto 0;
+  margin: 7rem auto 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 @media (max-width: 900px) {
   .container {
@@ -13,9 +14,6 @@
     height: fit-content;
     width: fit-content;
     margin: 3rem auto 0;
-  }
-  .backgroundDiv {
-    visibility: hidden;
   }
 }
 
@@ -29,4 +27,12 @@
   transform: skewY(3deg);
   z-index: -1;
   pointer-events: none;
+}
+
+.title {
+  color: var(--green);
+}
+
+.subTitle {
+  color: rgba(10, 10, 10, 0.85);
 }
