@@ -1,0 +1,27 @@
+.container {
+  height: 25rem;
+  color: var(--green);
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.iconBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.iconBox i {
+  font-size: 4rem;
+}

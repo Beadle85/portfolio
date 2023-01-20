@@ -30,7 +30,7 @@ export default function FunctionCard() {
         6 {'      '}
         <CodeText codeColor='lightBlue'>skills:</CodeText> <CodeText codeColor='blue'>{'['}</CodeText>
         <a href='#skills'>
-          ...<CodeText codeColor='lightBlue'>skills</CodeText>
+          ...<CodeText codeColor='lightBlue'>clickHere</CodeText>
         </a>
         <CodeText codeColor='blue'>{']'}</CodeText>
       </pre>

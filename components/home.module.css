@@ -1,20 +1,9 @@
-.container {
-  /* height: calc(80vh - 100px); */
-  width: 80%;
-  margin: 7rem auto 0;
+.content {
+  padding-top: 7rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-around; */
-}
-@media (max-width: 900px) {
-  .container {
-    flex-direction: column;
-    margin-top: 10rem;
-    height: fit-content;
-    width: fit-content;
-    margin: 3rem auto 0;
-  }
+  text-align: center;
 }
 
 .backgroundDiv {
@@ -35,4 +24,9 @@
 
 .subTitle {
   color: rgba(10, 10, 10, 0.85);
+}
+
+.flexRow {
+  display: flex;
+  gap: 3rem;
 }

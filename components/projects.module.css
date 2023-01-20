@@ -1,0 +1,11 @@
+.container {
+  height: 25rem;
+  background: var(--green);
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  padding: 1.5rem;
+}

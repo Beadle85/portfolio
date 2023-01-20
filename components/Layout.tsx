@@ -20,6 +20,9 @@ export default function Layout() {
               <li className={styles.listItem}>
                 <a href={'#skills'}>skills</a>
               </li>
+              <li className={styles.listItem}>
+                <a href={'#projects'}>projects</a>
+              </li>
             </ul>
           </nav>
         </div>
