@@ -5,7 +5,7 @@
   --border-radius: 12px;
   --nav-height: 4rem;
   --light-green: #b5d5c5;
-  --green: #67c971;
+  --color-primary: #67c971;
   --background-color: #f5f5dc;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono',
     'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
   width: 12px;
-  background-color: var(--green);
+  background-color: var(--color-primary);
   border-radius: 1rem;
 }
 

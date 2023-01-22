@@ -1,6 +1,6 @@
 .container {
   height: 25rem;
-  color: var(--green);
+  color: var(--color-primary);
   margin: 0 auto;
   max-width: 900px;
 }

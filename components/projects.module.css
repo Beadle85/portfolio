@@ -1,6 +1,6 @@
 .container {
   height: 25rem;
-  background: var(--green);
+  background: var(--color-primary);
   margin: 0 auto;
   color: white;
   text-align: center;

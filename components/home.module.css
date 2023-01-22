@@ -12,14 +12,14 @@
   top: 0px;
   width: 100%;
   min-height: 150px;
-  background: linear-gradient(134deg, var(--green) 0%, var(--green) 99%);
+  background: linear-gradient(134deg, var(--color-primary) 0%, var(--color-primary) 99%);
   transform: skewY(3deg);
   z-index: -1;
   pointer-events: none;
 }
 
 .title {
-  color: var(--green);
+  color: var(--color-primary);
 }
 
 .subTitle {
