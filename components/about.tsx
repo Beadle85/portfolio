@@ -8,7 +8,7 @@ export default function About() {
       <div className={styles.content}>
         <FunctionCard />
         <div className={styles.aboutMe}>
-          <h3>Hello there, my name is Beadle. Thanks for joinging me here!</h3>
+          <h3>Hello, my name is Beadle. Thanks for joining me here!</h3>
           <p>
             I had a rather unique jounrey that brough me into the software developmet world. In 2014 I started a small
             sustainably focused business called Compost Nashville. After 5 years in business, it became apparent we
