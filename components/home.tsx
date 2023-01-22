@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.content}>
         <h1 className={styles.title}>Full Stack Software Engineer</h1>
         <h3 className={styles.subTitle}>I enjoy making companies more productive and profitable through code</h3>
-        <Image src={profilePic} alt='picture of Beadle' width={456} height={456} />
+        <Image src={profilePic} alt='picture of Beadle' width={456} height={456} priority={true} />
       </div>
     </section>
   );
