@@ -29,6 +29,16 @@ body {
   /* -webkit-font-smoothing: antialiased; */
 }
 
+body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 12px;
+  background-color: var(--green);
+  border-radius: 1rem;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
