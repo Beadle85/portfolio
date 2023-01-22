@@ -1,5 +1,5 @@
 import CodeText from './codeText';
-import styles from './functionCard.module.css';
+import styles from '../../styles/functionCard.module.css';
 
 export default function FunctionCard() {
   return (

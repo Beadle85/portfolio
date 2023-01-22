@@ -1,4 +1,4 @@
-import styles from './about.module.css';
+import styles from '../styles/about.module.css';
 import FunctionCard from './about/functionCard';
 
 export default function About() {

@@ -1,4 +1,4 @@
-import styles from './skills.module.css';
+import styles from '../styles/skills.module.css';
 
 export default function Skills() {
   function IconBox({ children }: { children: React.ReactNode }) {
