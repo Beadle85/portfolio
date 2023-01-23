@@ -6,9 +6,9 @@ export default function Layout() {
     <header className={styles.header}>
       <div className={styles.navWrapper}>
         <div className={styles.navContent}>
-          <Link aria-current='page' href='/' className={styles.logo}>
+          <a href='#home' className={styles.logo}>
             Beadle
-          </Link>
+          </a>
           <nav>
             <ul className={styles.navList}>
               <li className={styles.listItem}>

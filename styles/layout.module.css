@@ -30,11 +30,8 @@
   list-style: none;
   display: flex;
   align-items: center;
-  transition: all 0.2s ease 0s;
   list-style: none;
-  /* padding: 0px; */
-  font-size: 18px;
-  /* line-height: 150%; */
+  font-size: 1.02rem;
 }
 
 .listItem {
@@ -44,6 +41,7 @@
 }
 
 .logo {
+  font-size: 1.02rem;
   margin-right: auto;
   cursor: pointer;
 }
