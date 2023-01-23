@@ -22,7 +22,7 @@ export default function Skills() {
             React
           </IconBox>
           <IconBox>
-            <i className='fa-brands fa-git-alt'></i>
+            <i className='devicon-git-plain'></i>
             Git
           </IconBox>
           <IconBox>
@@ -46,11 +46,11 @@ export default function Skills() {
             mongoDB
           </IconBox>
           <IconBox>
-            <i className='fa-brands fa-html5'></i>
+            <i className='devicon-html5-plain'></i>
             HTML5
           </IconBox>
           <IconBox>
-            <i className='fa-brands fa-css3-alt'></i>
+            <i className='devicon-css3-plain'></i>
             CSS3
           </IconBox>
         </section>

@@ -1,8 +1,9 @@
 .container {
-  height: 25rem;
+  height: 100%;
   color: var(--color-primary);
   margin: 0 auto;
   max-width: 900px;
+  padding-bottom: 3rem;
 }
 
 .container h2 {
